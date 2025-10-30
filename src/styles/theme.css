@@ -1,0 +1,29 @@
+:root {
+  --primary: #6c5ce7;
+  --primary-light: #a29bfe;
+  --secondary: #fd79a8;
+  --secondary-light: #fab1a0;
+
+  --bg: #fefefe;
+  --bg-light: #ffffff;
+  --bg-alt: #f8f9ff;
+
+  --text: #2d3436;
+  --text-light: #636e72;
+
+  --radius: 14px;
+  --transition: 0.25s ease;
+
+  --shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 6px 18px rgba(0, 0, 0, 0.12);
+
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+}
